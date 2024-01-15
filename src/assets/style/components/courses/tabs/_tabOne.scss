@@ -1,0 +1,18 @@
+.tab-one {
+  &__title {
+    margin: 24px 0 16px;
+    color: #374557;
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__text {
+    max-width: 800px;
+    color: #a098ae;
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+  }
+}

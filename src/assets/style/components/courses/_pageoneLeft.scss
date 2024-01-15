@@ -1,0 +1,15 @@
+.page-one__left {
+  &__video {
+    iframe {
+      border-radius: 14px;
+    }
+  }
+
+  &__title {
+    color: #374557;
+    font-family: 'poppins';
+    font-size: 26px;
+    font-weight: 700;
+    margin: 12px 0 30px;
+  }
+}

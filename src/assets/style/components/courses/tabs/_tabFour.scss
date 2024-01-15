@@ -1,0 +1,23 @@
+.tab-four {
+  &__btn {
+    margin: 30px 0 120px;
+
+    button {
+      padding: 12px 34px;
+      font-family: "poppins";
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      background: #166199;
+      border: 1px solid #166199;
+      border-radius: 14px;
+      transition: 0.5s;
+
+      &:hover {
+        background: transparent;
+        color: #166199;
+        border: 1px solid #166199;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.finished__card {
+  background: #374557;
+  width: 385px;
+  border-radius: 14px;
+  padding: 20px 21px;
+  position: relative;
+
+  &__title {
+    max-width: 256px;
+    h2 {
+      color: #384658;
+      font-family: "poppins";
+      font-size: 18px;
+      font-weight: 600;
+      padding: 6px 22px;
+      border-radius: 10px;
+      background: #fff;
+    }
+  }
+}

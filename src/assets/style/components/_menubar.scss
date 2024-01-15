@@ -1,0 +1,30 @@
+.menuBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fff;
+  width: 100%;
+  padding: 18px 32px;
+  z-index: 995;
+
+  &__icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #a098ae;
+    gap: 28px;
+    font-size: 16px;
+
+    i{
+      cursor: pointer;
+    }
+  }
+
+  &__profil {
+    padding: 5px 6px;
+    background: #DBDBDB;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+}

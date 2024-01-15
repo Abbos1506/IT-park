@@ -1,0 +1,25 @@
+.colleps-video {
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .colleps__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 18px;
+    background: #166199;
+    border-radius: 14px;
+    color: #fff;
+    cursor: pointer;
+
+    &__icon {
+        padding: 5px 9px;
+        background: #fff;
+        color: #166199;
+        border-radius: 50%;
+    }
+  }
+}
